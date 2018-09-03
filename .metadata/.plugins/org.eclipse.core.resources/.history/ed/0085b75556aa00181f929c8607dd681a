@@ -1,0 +1,22 @@
+package pjtTesteTela;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+
+public class Tela extends JFrame{
+	JButton btn;
+	
+	public Tela(){
+		setTitle("Tela 1");
+		setSize(500, 500);
+		setLocation(200, 60);
+		init();
+		setVisible(true);
+		
+	}
+	private void init() {
+		btn.setText("Clique aqui");
+		btn.setBounds(50, 50, 200, 30);
+		add(btn);
+	}
+}

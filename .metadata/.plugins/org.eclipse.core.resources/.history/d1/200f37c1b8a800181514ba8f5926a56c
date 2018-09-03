@@ -1,0 +1,26 @@
+package pjtJogoDaVelha;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+
+public class Tabuleiro extends JFrame {
+	//linha 1
+	JButton btnUm_1 = new JButton();
+	JButton btnUm_2 = new JButton();
+	JButton btnUm_3 = new JButton();
+	//linha 2
+	JButton btnDois_1 = new JButton();
+	JButton btnDois_2 = new JButton();
+	JButton btnDois_3 = new JButton();
+	//linha 3
+	JButton btnTres_1 = new JButton();
+	JButton btnTres_2 = new JButton();
+	JButton btnTres_3 = new JButton();
+
+	public Tabuleiro(){
+		setSize(500, 500);
+		setTitle("Jogo da Velha");
+		setDefaultCloseOperation(EXIT_ON_CLOSE);
+		setVisible(true);
+	}
+}

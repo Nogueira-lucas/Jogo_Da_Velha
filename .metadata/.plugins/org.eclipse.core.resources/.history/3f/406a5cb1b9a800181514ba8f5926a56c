@@ -1,0 +1,28 @@
+package pjtJogoDaVelha;
+
+import java.awt.event.ActionListener;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+
+public class Tela extends JFrame{
+	//linha 1
+	JButton btnUm_1;
+	JButton btnUm_2;
+	JButton btnUm_3;
+	//linha 2
+	JButton btnDois_1;
+	JButton btnDois_2;
+	JButton btnDois_3;
+	//linha 3
+	JButton btnTres_1;
+	JButton btnTres_2;
+	JButton btnTres_3; 
+
+	public Tela(){
+		setSize(500, 500);
+		setTitle("Jogo da Velha");
+		setDefaultCloseOperation(EXIT_ON_CLOSE);
+		setVisible(true);
+	}
+}

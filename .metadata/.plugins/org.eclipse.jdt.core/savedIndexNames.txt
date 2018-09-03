@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+/home/nogueira/Documentos/REPOSITORIOS/pjtJogoDaVelha/.metadata/.plugins/org.eclipse.jdt.core
+646308851.index
+2687735114.index

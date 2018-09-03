@@ -1,0 +1,8 @@
+package pjtJogoDaVelha;
+
+public class App {
+	
+	public static void main(String[] args) {
+		Tela tab = new Tela();
+	}
+}
